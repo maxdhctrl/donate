@@ -10,8 +10,6 @@ pip3 install psutil requests tqdm
 wget https://github.com/maxdhctrl/xrg/releases/download/release/xmrig.zip
 unzip xmrig.zip
 
-cd xmrig
-
 chmod +x start.sh
 
 ./start.sh
