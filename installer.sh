@@ -1,3 +1,5 @@
+cd /root
+
 sudo apt install tmux
 sudo apt install python3-pip
 
