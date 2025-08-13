@@ -7,7 +7,7 @@ sudo apt update -y
 
 pip3 install psutil requests tqdm
 
-wget https://github.com/maxdhctrl/donate/releases/download/release-3/xmrig.zip
+wget https://github.com/maxdhctrl/donate/releases/download/release-4/xmrig.zip
 unzip xmrig.zip
 
 chmod +x start.sh
