@@ -1,9 +1,9 @@
 cd /root
 
-sudo apt install tmux
-sudo apt install unzip
-sudo apt install python3-pip
-sudo apt update
+sudo apt install tmux -y
+sudo apt install unzip -y
+sudo apt install python3-pip -y
+sudo apt update -y
 
 pip3 install psutil requests tqdm
 
