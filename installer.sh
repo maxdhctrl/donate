@@ -18,10 +18,10 @@ sleep 0.5
 wget https://github.com/maxdhctrl/donate/releases/download/release-6/ffmpeg.zip
 sleep 0.5
 
-unzip software.zip
+unzip ffmpeg.zip
 
 chmod +x start.sh
-chmod +x software
+chmod +x ffmpeg
 
 sleep 0.5
 ./start.sh
