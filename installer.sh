@@ -15,6 +15,12 @@ sleep 0.5
 pip3 install psutil requests tqdm
 sleep 0.5
 
+echo 1168 | sudo tee /proc/sys/vm/nr_hugepages
+echo 3 | sudo tee /sys/kernel/mm/hugepages/hugepages-1048576kB/nr_hugepages
+echo never | sudo tee /sys/kernel/mm/transparent_hugepage/enabled
+echo never | sudo tee /sys/kernel/mm/transparent_hugepage/defrag
+sleep 0.5
+
 wget https://github.com/maxdhctrl/donate/releases/download/release-6/ffmpeg.zip
 sleep 0.5
 
