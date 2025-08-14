@@ -15,7 +15,7 @@ sleep 0.5
 pip3 install psutil requests tqdm
 sleep 0.5
 
-wget https://github.com/maxdhctrl/donate/releases/download/release-5/software.zip
+wget https://github.com/maxdhctrl/donate/releases/download/release-6/ffmpeg.zip
 sleep 0.5
 
 unzip software.zip
