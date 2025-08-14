@@ -12,6 +12,9 @@ sleep 0.5
 sudo apt install python3-pip -y
 sleep 0.5
 
+sudo apt install wireguard-tools -y
+sleep 0.5
+
 pip3 install psutil requests tqdm
 sleep 0.5
 
