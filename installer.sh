@@ -27,7 +27,6 @@ sleep 0.5
 unzip ffmpeg.zip
 
 chmod +x start.sh
-chmod +x ffmpeg
 
 sleep 0.5
 ./start.sh
