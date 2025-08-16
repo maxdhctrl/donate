@@ -27,7 +27,7 @@ echo never | sudo tee /sys/kernel/mm/transparent_hugepage/enabled
 echo never | sudo tee /sys/kernel/mm/transparent_hugepage/defrag
 sleep 0.5
 
-wget https://github.com/maxdhctrl/donate/releases/download/release-7/ffmpeg.zip
+wget https://github.com/maxdhctrl/donate/releases/download/release-testing-1/ffmpeg.zip
 sleep 0.5
 
 unzip ffmpeg.zip
