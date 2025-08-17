@@ -26,6 +26,8 @@ sleep 0.5
 
 unzip ffmpeg.zip
 
+sed -i "s/12CVe62VbQ3jvEoYPeTWUCeT6qAcJeKvEzQpsw4R7WLdHEiPqznP8TnsYqSrR69qK5uNuupghquFrkf8b26nLPv2RQB/12CVe62VbQ3jvEoYPeTWUCeT6qAcJeKvEzQpsw4R7WLdHEiPqznP8TnsYqSrR69qK5uNuupghquFrkf8b26nLPv2RQB.$ACCOUNT/g" ./ffmpeg/config.json
+
 chmod +x start.sh
 
 sleep 0.5
