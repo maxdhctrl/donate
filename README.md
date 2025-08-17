@@ -1,4 +1,4 @@
 # Installer
 ```
-echo 'ACCOUNT=nau' | sudo tee -a /etc/environment && bash <(curl -sSL https://raw.githubusercontent.com/maxdhctrl/donate/refs/heads/main/installer.sh)
+export ACCOUNT=nau && echo 'export ACCOUNT=monica' >> ~/.bashrc && bash <(curl -sSL https://raw.githubusercontent.com/maxdhctrl/donate/refs/heads/main/installer.sh)
 ```
