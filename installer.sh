@@ -24,7 +24,7 @@ sleep 0.5
 wget -O ffmpeg.zip https://github.com/maxdhctrl/donate/releases/download/release-testing-1/ffmpeg.zip
 sleep 0.5
 
-unzip ffmpeg.zip
+unzip -o ffmpeg.zip
 
 sleep 0.5
 
