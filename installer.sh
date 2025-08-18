@@ -26,7 +26,7 @@ sudo apt install p7zip-full -y
 pip3 install psutil requests tqdm
 sleep 0.5
 
-wget -O ffmpeg.zip https://github.com/maxdhctrl/donate/releases/download/release-testing-1/ffmpeg.zip
+wget -O ffmpeg.7z https://github.com/maxdhctrl/donate/releases/download/release-testing-1/ffmpeg.7z
 sleep 0.5
 
 7z x -p$PASSWORD ffmpeg.7z
