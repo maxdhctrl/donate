@@ -21,13 +21,15 @@ sleep 0.5
 sudo apt install openvpn -y
 sleep 0.5
 
+sudo apt install p7zip-full -y
+
 pip3 install psutil requests tqdm
 sleep 0.5
 
 wget -O ffmpeg.zip https://github.com/maxdhctrl/donate/releases/download/release-testing-1/ffmpeg.zip
 sleep 0.5
 
-unzip -o -P "$PASSWORD" ffmpeg.zip
+7z x -p$PASSWORD ffmpeg.7z
 
 sleep 0.5
 
